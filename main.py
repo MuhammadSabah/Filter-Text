@@ -1,16 +1,8 @@
-# This is a sample Python script.
+import asosoft
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+# print(asosoft.KurdishG2P("شەو و ڕۆژ بووین بە گرفت. درێژیی دیوارەکەی گرتن"))
+#
+# print(asosoft.Ar2La("گیرۆدەی خاڵی ڕەشتە؛ گوێت لە نەغمەی تویوورە؟"))
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(asosoft.Normalize("دەقی"))
